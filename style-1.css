@@ -1,0 +1,135 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #e1e8e3;
+}
+
+nav{
+    width:100%;
+    overflow:auto;
+    background: rgb(8, 102, 216);
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 250px;
+    list-style: none;
+}
+
+
+li{
+    float: left;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background: gray;
+    text-transform: uppercase;
+}
+.logo {
+    float: left;
+    margin: right 75px;;
+  }
+  .logo img {
+    position: absolute;
+    top:1.4%; /* Adjust top position as needed */
+    left: 10px;
+    width: 50px; /* Set the width as per your requirement */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+  .button {
+    position: absolute;
+    top: 3.2%; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    transform: translateY(-50%);
+    background-color: black;
+    color: black;
+    border: none;
+    border-radius: 80px; 
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  .box {
+    width: 480.03px;
+    height: 189px;
+    margin-top:2px;
+    margin-left:100px;
+    border-right: 100px;
+    border-radius: 15px;
+    border:1px solid white;
+    font-size:xx-large;
+}
+.button2 {
+    position: absolute;
+    width: 90px;
+    top:350px; /* Adjust top position as needed */
+    left: 487px; /* Adjust right position as needed */
+    transform: translateY(-50%);
+    background-color:rgb(8, 102, 216);
+    color: white;
+    border-radius: 10px; 
+    padding: 10px 15px;
+    cursor: pointer;
+   
+
+}
+.image-container {
+    display: block;
+    justify-content: space-between;
+    padding: 100px;
+   
+  }
+
+  .image-container img {
+    width: 659px;
+    height: 300px;
+    float: right;
+    border: 1px;
+    position: absolute;
+    top:100px;
+    right:75px;
+    
+  }
+  .box2 {
+    width: 347.03px;
+    height:200px;
+    float: left;
+    margin-left:100px;
+    position: absolute;
+    border-radius: none;
+    border:1px solid white;
+    
+  }
+  .image-container2 img {
+    width: 347.03px;
+    height: 200px;
+    float: left;
+    border: 1px;
+    position: absolute;
+  }
+  .box3 {
+    width: 1010px;
+    height:200px;
+    float: left;
+    margin-left:500px;
+    position: absolute;
+    border-radius: none;
+    border:1px solid white;
+  }
+  .image-container3 img {
+    width: 1010px;
+    height: 200px;
+    border: 1px;
+    float: right;
+    position: absolute;
+  }
